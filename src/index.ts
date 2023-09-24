@@ -1,16 +1,29 @@
-let age:number = 112
+const id: number = 10;
 
-age = 1
+const user_name: string = "João";
 
-console.log(age)
+const isAvilable: boolean = true;
 
-const hello = document.querySelector('#hello')
+let x: any = "teste";
 
-hello!.innerHTML = 'hello world 1'
+x = 10;
 
-const div = document.querySelector('div')
-const p = document.createElement('p')
+const arr: number[] = [1, 2, 3];
 
-p.innerText = 'hello world 2, typeScript'
+const arr2: Array<number> = [1, 2, 3];
 
-div!.appendChild(p)
+const arr3: string[] = ["1", "2", "3"];
+
+arr3.push("4");
+
+arr2.push(4);
+
+// tuple
+let arr4: [number, string, boolean] = [1, "2", true];
+
+let employee: [string, number][];
+
+employee = [
+  ["João", 10],
+  ["Maria", 20],
+];
