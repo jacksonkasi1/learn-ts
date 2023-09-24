@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1 id="hello" >welcome to my world</h1>
+  </head>
+  <body>
+    <h1>Fiance Logger</h1>
 
-    <div></div>
+    <div>
+      <ul class="list"></ul>
+    </div>
 
-    <script src="index.js"></script>
-</body>
+    <form class="form">
+      <div>
+        <label>Type</label>
+        <select id="type">
+          <option value="invoice">Invoice</option>
+          <option value="payment">Payment</option>
+        </select>
+      </div>
+
+      <div class="fild">
+        <label>From / To:</label>
+        <input type="text" id="from-to" />
+      </div>
+      <div class="fild">
+        <label>Details</label>
+        <input type="text" id="details" />
+      </div>
+      <div class="fild">
+        <label>Amount $:</label>
+        <input type="number" id="amount" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <p class="copyright">&copy; 2023</p>
+    </footer>
+
+    <script src="./app.js" type="module"></script>
+  </body>
 </html>

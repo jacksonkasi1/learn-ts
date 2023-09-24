@@ -1,17 +1,14 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Color = void 0;
 // union type
 let dataReceived;
 dataReceived = 123;
 dataReceived = "12";
 // Enum type
-var Color;
+export var Color;
 (function (Color) {
     Color[Color["Red"] = 2] = "Red";
     Color[Color["Green"] = 3] = "Green";
     Color[Color["Blue"] = 4] = "Blue";
-})(Color || (exports.Color = Color = {}));
+})(Color || (Color = {}));
 let color = Color.Green;
 console.log(color);
 console.log(Color);

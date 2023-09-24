@@ -29,4 +29,5 @@ class Employee extends Person {
     }
 }
 const emp = new Employee("Jack", 18, 100);
+emp.sayHi("hello");
 console.log(emp);
