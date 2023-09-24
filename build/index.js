@@ -1,4 +1,5 @@
 "use strict";
-let age = 112;
-age = 1;
-console.log(age);
+Object.defineProperty(exports, "__esModule", { value: true });
+require("./enum-types");
+require("./interface");
+require("./func");
