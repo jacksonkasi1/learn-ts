@@ -16,3 +16,5 @@ const addFunc = (x, y) => {
 };
 const sol2 = addFunc(2, 3);
 console.log(sol);
+const subFunc = (x, y) => x - y;
+console.log(subFunc(2000, 300));
